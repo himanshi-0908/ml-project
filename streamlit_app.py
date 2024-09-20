@@ -126,7 +126,7 @@ if st.button('Heart Diseases Test Result'):
          heart_diagnosis ='The Person is has high rate of Heart Disease'
      else:
          heart_diagnosis = 'The Person has not high rate of Heart Disease'
- st.success(heart_diagnosis)
+ st.success(heart_diagnosis):
  #getting the input data from the users
  col1, col2, col3 = st.columns(3)
   with col1:
@@ -163,13 +163,13 @@ if st.button('Heart Diseases Test Result'):
 
       
       #creating a button for Prediction
-      if st.button('Heart Diseases Result'):
+if st.button('Heart Diseases Result'):
           diab_prediction = diabetes_model.predict([[Age, Sex, p, trestbps, chol, ]])
           if (diab_prediction[0]==1):
               diab_diagnosis ='The Person is Diabetic'
           else:
               diab_diagnosis = 'The Person is not Diabetic'
-      st.success(diab_diagnosis)
+      st.success(diab_diagnosis):
       #getting the input data from the users
       col1, col2, col3 = st.columns(3)
       with col1:
