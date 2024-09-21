@@ -128,7 +128,7 @@ if st.button('Heart Diseases Test Result'):
          heart_diagnosis = 'The Person has not high rate of Heart Disease'
 st.success(heart_diagnosis)
  #getting the input data from the users
- col1, col2, col3 = st.columns(3)
+  col1, col2, col3 = st.columns(3)
   with col1:
       age = st.text_input("Your age: ")
   with col2:
